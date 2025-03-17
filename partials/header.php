@@ -1,3 +1,6 @@
+<?php
+    require_once('_inc/functions.php');
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -89,9 +92,13 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                     <div class="col-md-6 col-sm-7">
                         <div class="list-menu">
                             <ul>
-                                <li><a href="index.php">Shop</a></li>
+                            <?php
+                                    $pages = array('Shop'=> 'index.php', 'Details' => 'product-detail.php', 'Contact'=>'contact.php');
+                                    echo (get_menu($pages));
+                                ?>
+                                <!--<li><a href="index.php">Shop</a></li>
                                 <li><a href="product-detail.php">Details</a></li>
-                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>-->
                             </ul>
                         </div> <!-- /.list-menu -->
                     </div> <!-- /.col-md-6 -->
