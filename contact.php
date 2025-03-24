@@ -50,7 +50,7 @@
                         </div> <!-- /.product-thum -->
                         <div class="product-content">
                             <h5><a href="#">Name of Shirt</a></h5>
-                            <span class="tagline">By: JohnDoe</span>
+                            <span class="tagline">By: LUXGOLD</span>
                             <ul class="progess-bars">
                                 <li>
                                     <div class="progress">

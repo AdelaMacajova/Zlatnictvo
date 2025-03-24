@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer id="about-us" class="site-footer">
         <div class="our-partner">
             <div class="container">
                 <div class="row">
@@ -49,7 +49,7 @@
                     <div class="col-md-3">
                         <div class="footer-widget">
                             <h3 class="widget-title">About Us</h3>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, debitis recusandae.
+                            LUXGOLD creates timeless jewelry with elegance and precision. We offer high-quality gold and diamond pieces, combining expert craftsmanship with unique designs. Discover your perfect sparkle with us!
                             <ul class="follow-us">
                                 <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
@@ -59,20 +59,17 @@
                     <div class="col-md-3">
                         <div class="footer-widget">
                             <h3 class="widget-title">Why Choose Us?</h3>
-                            Kool Store is free responsive eCommerce template provided by templatemo website. You can use this layout for any website.
-                            <br><br>Tempore cum mollitia eveniet laboriosam corporis voluptas earum voluptate. Lorem ipsum dolor sit amet.
-                            <br><br>Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for all images.
+                            LUXGOLD - timeless elegance in every piece of gold and diamond jewelry.
+                            <br><br>Where beauty and craftsmanship shine together. Designed to make your moments unforgettable.
                         </div> <!-- /.footer-widget -->
                     </div> <!-- /.col-md-3 -->
                     <div class="col-md-2">
                         <div class="footer-widget">
                             <h3 class="widget-title">Useful Links</h3>
                             <ul>
-                                <li><a href="#">Our Shop</a></li>
+                                <li><a href="index.php">Our Shop</a></li>
                                 <li><a href="#">Partners</a></li>
-                                <li><a href="#">Gift Cards</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Help</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div> <!-- /.footer-widget -->
                     </div> <!-- /.col-md-2 -->
@@ -95,8 +92,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <span>Copyright &copy; 2084 <a href="#">Company Name</a></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, expedita soluta mollitia accusamus ut architecto maiores cum fugiat. Pariatur ipsum officiis fuga deleniti alias quia nostrum veritatis enim doloremque eligendi?</p>
+                        <span>Copyright &copy; 2025 <a href="#">LUXGOLD</a></span>
+                        <p>All rights reserved.</p>
                     </div> <!-- /.col-md-12 -->
                 </div> <!-- /.row -->
             </div> <!-- /.container -->

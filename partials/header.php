@@ -12,10 +12,11 @@ Kool Store Template
 http://www.templatemo.com/preview/templatemo_428_kool_store
 -->
     <meta charset="utf-8">
-    <title>Kool Store - Responsive eCommerce Template</title>
+    <title>LUXGOLD</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="gold, diamond, ruby, emerald, citrine, rings, bracelet, jewelery, earrings, gemstone, luxury, luxgold, rich">
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 
@@ -75,11 +76,15 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                                 <i class="fa fa-bars"></i>
                             </a>
                             <ul class="menu">
-                                <li><a href="#">Home</a></li>
+                            <?php
+                                    $pages = array('Home'=> 'index.php', 'FAQs'=>'contact.php', 'About'=>'#about-us');
+                                    echo (get_menu($pages));
+                                ?>
+                                <!--<li><a href="#">Home</a></li>
                                 <li><a href="#">Catalogs</a></li>
                                 <li><a href="#">FAQs</a></li>
                                 <li><a href="#">Policies</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="#">About</a></li>-->
                             </ul>
                         </div> <!-- /.main-menu -->
                     </div> <!-- /.col-md-8 -->
