@@ -855,6 +855,15 @@ ul.follow-us li a i {
   margin: 0 auto;
 }
 
+/*doplnený thankyou page css kod*/
+.thankyou{
+  
+  text-align: center;
+  color: #000;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
 /*------------------------------------------------------
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
@@ -958,4 +967,6 @@ ul.follow-us li a i {
   .product-item-2 .product-content p {
     display: none;
   }
+
 }
+

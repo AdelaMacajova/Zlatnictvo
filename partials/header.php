@@ -18,8 +18,9 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
     <meta name="viewport" content="width=device-width">
     <meta name="keywords" content="gold, diamond, ruby, emerald, citrine, rings, bracelet, jewelery, earrings, gemstone, luxury, luxgold, rich">
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
+    <!--POVODNA NEFUNKCNA MAPA<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">-->
 
+    <!--CSS LINKY KTORE MOZEM VYMAZAT, JE TO CEZ FUNKCIU
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -27,7 +28,10 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
     <link rel="stylesheet" href="css/templatemo-misc.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/banner.css">
-
+    <link rel="stylesheet" href="css/accordion.css">-->
+    <?php
+        add_stylesheets();
+    ?>
 
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -77,7 +81,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                             </a>
                             <ul class="menu">
                             <?php
-                                    $pages = array('Home'=> 'index.php', 'FAQs'=>'contact.php', 'About'=>'#about-us');
+                                    $pages = array('Home'=> 'index.php', 'FAQs'=>'faq.php', 'About'=>'#about-us');
                                     echo (get_menu($pages));
                                 ?>
                                 <!--<li><a href="#">Home</a></li>

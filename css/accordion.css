@@ -1,0 +1,36 @@
+
+.question{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    padding:1vw;
+    font-weight: bold;
+}
+
+.question .answer{
+    display:none;
+}
+
+.answer{
+    display:none;
+}
+.question::before{
+    content:"> ";
+}
+.question:hover, .accordion.active .question{
+    cursor:pointer;
+    color:white;
+    background-color: rgb(34, 34, 34);
+    transition: 0.33s;
+}
+
+.accordion.active .answer{
+    display:flex;
+    flex-direction: row;
+    padding:1vw;
+    font-size: 20px;
+    text-align: left;
+}
+
+.accordion.active .question::before{
+    content:"˅ "
+}

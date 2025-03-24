@@ -101,12 +101,17 @@
     </footer> <!-- /.site-footer -->
 
     
+    <?php
+        add_scripts();
+    ?>
+    <!--
     <script src="js/vendor/jquery-1.10.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
     <script src="js/jquery.easing-1.3.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/accordion.js"></script>-->
 
 
 </body>
