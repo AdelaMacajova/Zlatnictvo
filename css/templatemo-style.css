@@ -15,7 +15,7 @@ textarea {
 }
 
 body{
-  background-color: rgb(247, 237, 210) !important;
+  background-color: rgb(244, 233, 205) !important;
 }
 
 ::-moz-selection {
@@ -561,7 +561,7 @@ h6 {
 .product-item-4 .product-content.overlay {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 500%;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   opacity: 0;
@@ -663,7 +663,7 @@ h6 {
   margin: 20px 0;
 }
 .product-information .product-infos {
-  color: #2a80b9;
+  color: #b92a2a;
   font-size: 18px;
   font-weight: 600;
   margin: 30px 0;
@@ -678,7 +678,7 @@ ul.product-buttons li {
 
 .main-btn {
   display: inline-block;
-  background-color: #2a80b9;
+  background-color: #179d3b;
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -692,7 +692,7 @@ ul.product-buttons li {
   /* stops bg color from leaking outside the border: */
 }
 .main-btn:hover {
-  background-color: #e84c3d;
+  background-color: #066d2c;
   color: white;
 }
 
@@ -750,7 +750,7 @@ textarea {
 }
 
 .our-partner {
-  background-color: #2a80b9;
+  background-color: #2d2d2d;
   padding: 15px;
   position: relative;
 }
@@ -774,7 +774,7 @@ textarea {
 }
 
 .main-footer {
-  background-color: #2d3e50;
+  background-color: #2b2b2b;
   padding: 50px 0 0 0;
 }
 .main-footer ul {
@@ -797,7 +797,7 @@ ul.follow-us li {
   margin-bottom: 10px;
 }
 ul.follow-us li a {
-  background-color: #2a80b9;
+  background-color: #141414;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -812,7 +812,7 @@ ul.follow-us li a i {
 
 .newsletter {
   padding: 20px;
-  background-color: #2a80b9;
+  background-color: #191919;
 }
 .newsletter p {
   margin: 0 0 20px 0;
@@ -831,7 +831,7 @@ ul.follow-us li a i {
 }
 .newsletter input[type=submit] {
   width: auto;
-  background-color: #2d3e50;
+  background-color: #282828;
   color: white;
   padding: 0 25px;
   font-size: 14px;
@@ -841,8 +841,8 @@ ul.follow-us li a i {
 }
 
 .bottom-footer {
-  background-color: #2d3e50;
-  border-top: 1px solid #3598db;
+  background-color: #212121;
+  border-top: 1px solid #6a6a6a;
   padding: 20px 0;
   font-size: 12px;
 }
@@ -968,5 +968,21 @@ ul.follow-us li a i {
     display: none;
   }
 
+}
+
+.ml1{
+  margin-left: 2px; /*margin left*/
+}
+.ml2{
+  margin-left: 5px;
+}
+.ml3{
+  margin-left: 10px;
+}
+.ml4{
+  margin-left: 20px;
+}
+.ml5{
+  margin-left: 5vw;
 }
 

@@ -15,10 +15,10 @@
                             <img src="images/produkty_zlate/earrings-emerald.jpg" alt="Product Title">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content">
-                            <h5><a href="#">New collection with emerald</a></h5>
+                            <h5><a href="#">perfect Emerald earrings</a></h5>
                             <span class="tagline">LUXGOLD</span>
                             <span class="price">250€</span>
-                            <p>Doloremque quo possimus quas necessitatibus blanditiis excepturi. Commodi, sunt asperiores tenetur deleniti labore!</p>
+                            <p>These emerald earrings capture the essence of timeless elegance and earthy charm. With every glimmer of green, they whisper stories of beauty, strength, and grace. Wear them to shine - softly, naturally, and boldly.</p>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
                 </div> <!-- /.col-md-3 -->
@@ -26,24 +26,26 @@
                     <div class="product-holder">
                         <div class="product-item-2">
                             <div class="product-thumb">
-                                <img src="images/produkty_zlate/rings.jpg" alt="Product Title">
+                                <img style="border-radius: 7px;" src="images/produkty_zlate/rings.jpg" alt="Product Title">
                             </div> <!-- /.product-thumb -->
                             <div class="product-content overlay">
-                                <h5><a href="#">Gold rings</a></h5>
+                                <h5><a href="#">Pure Gold Rings</a></h5>
                                 <span class="tagline">LUXGOLD</span>
-                                <span class="price">250€</span>
-                                <p>Doloremque quo possimus quas necessitatibus blanditiis excepturi. Commodi, sunt tenetur deleniti labore!</p>
+                                <span class="price">220€ - 319€</span>
+                                <p>Our golden rings are crafted to reflect warmth, beauty, and confidence. With their lustrous finish and refined design, each piece tells a story of sophistication that never fades. Whether it's a statement or a symbol, a golden ring is always the perfect touch.</p>
                             </div> <!-- /.product-content -->
                         </div> <!-- /.product-item-2 -->
                         <div class="product-item-2">
                             <div class="product-thumb">
-                                <img src="images/produkty_zlate/earrings-glass.jpg" alt="Product Title">
+                                <img style="border-radius: 7px;" src="images/produkty_zlate/earrings-glass.jpg" alt="Product Title">
                             </div> <!-- /.product-thumb -->
                             <div class="product-content overlay">
-                                <h5><a href="#">Gold rings - Greece edition</a></h5>
+                                <h5><a href="#">Rings sourced from our Greek vendors</a></h5>
                                 <span class="tagline">LUXGOLD</span>
                                 <span class="price">300€</span>
-                                <p>Doloremque quo possimus quas necessitatibus blanditiis excepturi. Commodi, sunt tenetur deleniti labore!</p>
+                                <p>Discover the elegance of our Greek earrings collection.
+                                Inspired by ancient Greek artistry, each piece combines timeless design with modern sophistication. From intricate patterns to minimalist elegance, these earrings bring a touch of Greece's rich heritage to your style, perfect for any occasion.
+                                </p>
                             </div> <!-- /.product-content -->
                         </div> <!-- /.product-item-2 -->
                         <div class="clearfix"></div>
@@ -57,9 +59,9 @@
                         <div class="product-content">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
-                                    <h5><a href="#">Gemstones in gold rings</a></h5>
+                                    <h5><a href="#">gemstoned rings</a></h5>
                                     <span class="tagline">LUXGOLD</span>
-                                    <span class="price">399€</span>
+                                    <span class="price">210€ - 459€</span>
                                 </div> <!-- /.col-md-6 -->
                                 <div class="col-md-6 col-sm-6">
                                     <div class="full-row">
@@ -106,32 +108,32 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="product-item-4">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/outfit with gold.jpg" alt="Product Title">
+                            <img style="border-radius: 7px;" src="images/produkty_zlate/outfit with gold.jpg" alt="Product Title">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content overlay">
-                            <h5><a href="#">Name Of Shirt</a></h5>
-                            <span class="tagline">Partner Name</span>
-                            <span class="price">$60.00</span>
-                            <p>Doloremque quo possimus quas necessitatibus.</p>
+                            <h5><a href="#">Golden Rings</a></h5>
+                            <span class="tagline">LUXGOLD Collection</span>
+                            <span class="price">160€ - 599€</span>
+                            <p>Amazing rings perfectly designed to suit everyone no matter the style.</p>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item-4 -->
                 </div> <!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="product-item-4">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/bracelets.jpg" alt="Product Title">
+                            <img style="border-radius: 7px;" src="images/produkty_zlate/bracelets.jpg" alt="">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content overlay">
-                            <h5><a href="#">Name Of Shirt</a></h5>
-                            <span class="tagline">Partner Name</span>
-                            <span class="price">$30.00</span>
-                            <p>Doloremque quo possimus quas necessitatibus.</p>
+                            <h5><a href="#">Golden Bracelets</a></h5>
+                            <span class="tagline">LUXGOLD Collection</span>
+                            <span class="price">220€ - 799€</span>
+                            <p>Carefully designed to capture elegance in every detail.</p>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item-4 -->
                 </div> <!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="ads-placemenet">
-                        <img src="images/produkty_zlate/pearls.jpg" alt="">
+                        <img style="border-radius: 7px;" src="images/produkty_zlate/pearls.jpg" alt="">
                     </div> <!-- /.ads-placement -->
                 </div> <!-- /.col-md-4 -->
             </div> <!-- /.row -->
@@ -142,51 +144,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 section-title">
-                    <h2>New Products</h2>
+                    <h2>Our Newest Products</h2>
                 </div> <!-- /.section -->
             </div> <!-- /.row -->
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
-                        <div class="product-thumb">
+                        <div class="product-thumb"><hr>
                             <img src="images/produkty_zlate/emerald.png" alt="">
-                        </div> <!-- /.product-thum -->
-                        <div class="product-content">
-                            <h5><a href="#">Ring with emerald</a></h5>
-                            <span class="price">280€</span>
+                        </div> <!-- /.product-thum --><hr>
+                        <div class="product-content" style="border-radius: 7px;">
+                            <h5><a href="#">Flawless Emerald Ring</a></h5>
+                            <span class="price">479€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
                 </div> <!-- /.col-md-3 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
-                        <div class="product-thumb">
+                        <div class="product-thumb"><hr>
                             <img src="images/produkty_zlate/ruby.png" alt="">
-                        </div> <!-- /.product-thum -->
-                        <div class="product-content">
-                            <h5><a href="#">Ring with ruby</a></h5>
-                            <span class="price">270€</span>
+                        </div> <!-- /.product-thum --><hr>
+                        <div class="product-content" style="border-radius: 7px;">
+                            <h5><a href="#">lustrous ruby ring</a></h5>
+                            <span class="price">349€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
                 </div> <!-- /.col-md-3 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
-                        <div class="product-thumb">
+                        <div class="product-thumb"><hr>
                             <img src="images/produkty_zlate/sapphire2.png" alt="">
-                        </div> <!-- /.product-thum -->
-                        <div class="product-content">
-                            <h5><a href="#">Ring with sapphire</a></h5>
-                            <span class="price">240€</span>
+                        </div> <!-- /.product-thum --><hr>
+                        <div class="product-content" style="border-radius: 7px;">
+                            <h5><a href="#">Timeless sapphire ring</a></h5>
+                            <span class="price">649€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
                 </div> <!-- /.col-md-3 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
-                        <div class="product-thumb">
+                        <div class="product-thumb"><hr>
                             <img src="images/produkty_zlate/citrine.png" alt="">
-                        </div> <!-- /.product-thum -->
-                        <div class="product-content">
-                            <h5><a href="#">Ring with citrine</a></h5>
-                            <span class="price">250€</span>
+                        </div> <!-- /.product-thum --><hr>
+                        <div class="product-content" style="border-radius: 7px;">
+                            <h5><a href="#">elegant citrine ring</a></h5>
+                            <span class="price">459€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
                 </div> <!-- /.col-md-3 -->

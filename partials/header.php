@@ -55,10 +55,9 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                     <div class="col-md-6 col-sm-6">
                         <div class="social-icons">
                             <ul>
-                                <li><a href="#" class="fa fa-facebook"></a></li>
-                                <li><a href="#" class="fa fa-dribbble"></a></li>
-                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                <li><a href="#" class="fa fa-linkedin"></a></li>
+                                <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
+                                <li><a href="https://x.com/" class="fa fa-twitter"></a></li>
+                                <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
                             </ul>
                             <div class="clearfix"></div>
                         </div> <!-- /.social-icons -->
@@ -113,7 +112,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                     </div> <!-- /.col-md-6 -->
                     <div class="col-md-6 col-sm-5">
                         <div class="notification">
-                            <span>Free Shipping on any order above 350€</span>
+                            <span>Free Shipping on any order above 950€</span>
                         </div>
                     </div> <!-- /.col-md-6 -->
                 </div> <!-- /.row -->

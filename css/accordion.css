@@ -1,9 +1,11 @@
 
 .question{
-    color:rgb(0, 0, 0);
+    color:rgb(57, 57, 57);
     font-size: 20px;
     padding:1vw;
     font-weight: bold;
+    background-color: rgb(227, 212, 170);
+    margin: 0px 5px 5px 5px;
 }
 
 .question .answer{
@@ -12,6 +14,11 @@
 
 .answer{
     display:none;
+    color:black;
+    font-weight:bold;
+    font-style: italic;
+    line-height: 30px;
+    margin-left: 17px;
 }
 .question::before{
     content:"> ";
@@ -29,6 +36,7 @@
     padding:1vw;
     font-size: 20px;
     text-align: left;
+    color:black;
 }
 
 .accordion.active .question::before{
