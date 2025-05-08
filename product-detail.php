@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="product-image">
-                        <img src="images/produkty_zlate/sperky.jpg" alt=""> 
+                        <img src="assets/images/produkty_zlate/sperky.jpg" alt=""> 
                     </div> <!-- /.product-image -->
                     <div class="product-information">
                         <h2>INFORMATION</h2>
@@ -29,10 +29,10 @@
                         </p>
                         <ul class="product-buttons">
                             <li>
-                                <a href="#" class="main-btn">Buy Full</a>
+                                <a href="thankyou.php" class="main-btn">Buy Full</a>
                             </li>
                             <li>
-                                <a href="#" class="main-btn">Add to Cart</a>
+                                <a href="thankyou.php" class="main-btn">Add to Cart</a>
                             </li>
                         </ul>
                     </div> <!-- /.product-information -->
@@ -40,7 +40,7 @@
                 <div class="col-md-4 col-sm-8">
                     <div class="product-item-2">
                         <div class="product-thumb">
-                            <img src="images/products/single1.png">
+                            <img src="assets/images/products/single1.png">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content overlay">
                             <h5><a href="#">God's Sorrow</a></h5>
@@ -51,7 +51,7 @@
                     </div> <!-- /.product-item-2 -->
                     <div class="product-item-2">
                         <div class="product-thumb">
-                            <img src="images/products/single2.png">
+                            <img src="assets/images/products/single2.png">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content overlay">
                             <h5><a href="#">Earrings of Love</a></h5>
@@ -62,7 +62,7 @@
                     </div> <!-- /.product-item-2 -->
                     <div class="product-item-2">
                         <div class="product-thumb">
-                            <img src="images/products/single3.png">
+                            <img src="assets/images/products/single3.png">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content overlay">
                             <h5><a href="#">Pearl Drop Medallions</a></h5>

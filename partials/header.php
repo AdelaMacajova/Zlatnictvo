@@ -1,55 +1,29 @@
 <?php
-    require_once('_inc/functions.php');
+    require_once("_inc/autoload.php");
 ?>
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html class="no-js">
 <head>
-<!-- 
-Kool Store Template
-http://www.templatemo.com/preview/templatemo_428_kool_store
--->
     <meta charset="utf-8">
     <title>LUXGOLD</title>
-
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <meta name="keywords" content="gold, diamond, ruby, emerald, citrine, rings, bracelet, jewelery, earrings, gemstone, luxury, luxgold, rich">
-
-    <!--POVODNA NEFUNKCNA MAPA<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">-->
-
-    <!--CSS LINKY KTORE MOZEM VYMAZAT, JE TO CEZ FUNKCIU
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/templatemo-misc.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/accordion.css">-->
     <?php
-        add_stylesheets();
+        $assets = new Assets();
+        $assets->add_stylesheets();
     ?>
-
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
 </head>
 <body>
-    <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-
-    
     <header class="site-header">
         <div class="top-header">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="top-header-left">
-                            <a href="#">Sign Up</a>
-                            <a href="#">Log In</a>
+                            <a href="login.php">Log In</a>
+                            <a href="logout.php">Log Out</a>
                         </div> <!-- /.top-header-left -->
                     </div> <!-- /.col-md-6 -->
                     <div class="col-md-6 col-sm-6">
@@ -80,14 +54,12 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                             </a>
                             <ul class="menu">
                             <?php
-                                    $pages = array('Home'=> 'index.php', 'FAQs'=>'faq.php', 'About'=>'#about-us');
-                                    echo (get_menu($pages));
+                                $upperMenu = new Menu();
+                                $upperMenuItems = $upperMenu->getUpperMenuItems();
+                                foreach ($upperMenuItems as $umi) {
+                                echo '<li><a href="' . $umi['url'] . '">' . $umi['label'] . '</a></li>';
+                                }
                                 ?>
-                                <!--<li><a href="#">Home</a></li>
-                                <li><a href="#">Catalogs</a></li>
-                                <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Policies</a></li>
-                                <li><a href="#">About</a></li>-->
                             </ul>
                         </div> <!-- /.main-menu -->
                     </div> <!-- /.col-md-8 -->
@@ -101,18 +73,17 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                         <div class="list-menu">
                             <ul>
                             <?php
-                                    $pages = array('Shop'=> 'index.php', 'Details' => 'product-detail.php', 'Contact'=>'contact.php');
-                                    echo (get_menu($pages));
-                                ?>
-                                <!--<li><a href="index.php">Shop</a></li>
-                                <li><a href="product-detail.php">Details</a></li>
-                                <li><a href="contact.php">Contact</a></li>-->
+                                $lowerMenu = new Menu();
+                                $lowerMenuItems = $lowerMenu->getLowerMenuItems();
+                                foreach ($lowerMenuItems as $lmi) {
+                                echo '<li><a href="' . $lmi['url'] . '">' . $lmi['label'] . '</a></li>';
+                                }
+                            ?>
                             </ul>
                         </div> <!-- /.list-menu -->
                     </div> <!-- /.col-md-6 -->
                     <div class="col-md-6 col-sm-5">
                         <div class="notification">
-                            <span>Free Shipping on any order above 950€</span>
                         </div>
                     </div> <!-- /.col-md-6 -->
                 </div> <!-- /.row -->

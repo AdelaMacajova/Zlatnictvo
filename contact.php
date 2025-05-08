@@ -1,25 +1,39 @@
 <?php
-        include('partials/header.php');
-    ?>
-
+    include('partials/header.php');
+        
+    $db = new Database();
+    $contact = new Contact($db);
+    if($_SERVER['REQUEST_METHOD']=='POST'){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $subject = $_POST['subject'];
+        $message = $_POST['message'];
+        if ($contact->create($name, $email, $subject, $message)) {
+        header('Location: thankyou.php');
+        exit;
+        } else {
+            echo "Error: Contact Error";
+        }
+    }
+?>
     <div class="content-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-sm-6">
-                    <h3 class="widget-title">Contact Us</h3>
-                    <div class="contact-form">
-                        <form name="contactform" id="contactform" action="thankyou.php" method="POST">
+                    <h3>Contact Us</h3>
+                    <div>
+                        <form name="contactform" id="contactform" action="" method="POST">
                             <p>
-                                <input name="name" type="text" id="name" name="name" placeholder="Your Name">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
                             </p>
                             <p>
-                                <input name="email" type="text" id="email" name="email" placeholder="Your Email"> 
+                                <input type="email" id="email" name="email" placeholder="Your Email" required> 
                             </p>
                             <p>
-                                <input name="subject" type="text" id="subject" name="subject" placeholder="Subject"> 
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required> 
                             </p>
                             <p>
-                                <textarea name="message" id="message" name="message" placeholder="Message"></textarea>    
+                                <textarea type="text" id="message" name="message"  placeholder="Message" required></textarea>    
                             </p>
                             <input type="submit" class="mainBtn" id="submit" name="submit" value="Send Message">
                         </form>
@@ -35,6 +49,6 @@
         </div>
     </div> <!-- /.content-section -->
 
-    <?php
+<?php
    include('partials/footer.php')
-   ?>
+?>

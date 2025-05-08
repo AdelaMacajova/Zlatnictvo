@@ -1,7 +1,6 @@
-    <?php
-        include('partials/header.php');
-    ?>
-
+<?php
+    include('partials/header.php');
+?>
     <br>
     <div class="banner"></div>
     <br>
@@ -12,7 +11,7 @@
                 <div class="col-md-3">
                     <div class="product-item-1">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/earrings-emerald.jpg" alt="Product Title">
+                            <img src="assets/images/produkty_zlate/earrings-emerald.jpg" alt="Product Title">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content">
                             <h5><a href="#">perfect Emerald earrings</a></h5>
@@ -26,7 +25,7 @@
                     <div class="product-holder">
                         <div class="product-item-2">
                             <div class="product-thumb">
-                                <img style="border-radius: 7px;" src="images/produkty_zlate/rings.jpg" alt="Product Title">
+                                <img style="border-radius: 7px;" src="assets/images/produkty_zlate/rings.jpg" alt="Product Title">
                             </div> <!-- /.product-thumb -->
                             <div class="product-content overlay">
                                 <h5><a href="#">Pure Gold Rings</a></h5>
@@ -37,7 +36,7 @@
                         </div> <!-- /.product-item-2 -->
                         <div class="product-item-2">
                             <div class="product-thumb">
-                                <img style="border-radius: 7px;" src="images/produkty_zlate/earrings-glass.jpg" alt="Product Title">
+                                <img style="border-radius: 7px;" src="assets/images/produkty_zlate/earrings-glass.jpg" alt="Product Title">
                             </div> <!-- /.product-thumb -->
                             <div class="product-content overlay">
                                 <h5><a href="#">Rings sourced from our Greek vendors</a></h5>
@@ -54,7 +53,7 @@
                 <div class="col-md-4">
                     <div class="product-item-3">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/prstene-uvod.jpg" alt="">
+                            <img src="assets/images/produkty_zlate/prstene-uvod.jpg" alt="">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content">
                             <div class="row">
@@ -83,14 +82,14 @@
                                         </select>
                                     </div>
                                     <div class="full-row">
-                                        <label for="cat2">Color:</label>
+                                    <label for="cat2">Gem:</label>
                                         <select name="cat2" id="cat2" class="postform">
                                             <option value="-1">- Select -</option>
-                                            <option class="level-0" value="2">Blue</option>
-                                            <option class="level-0" value="3">Red</option>
-                                            <option class="level-0" value="1">Pink</option>
-                                            <option class="level-0" value="4">Black</option>
-                                            <option class="level-0" value="4">Wlack</option>
+                                            <option class="level-0" value="1">Sapphire</option>
+                                            <option class="level-0" value="2">Ruby</option>
+                                            <option class="level-0" value="4">Onyx</option>
+                                            <option class="level-0" value="4">Opal</option>
+                                            <option class="level-0" value="4">Emerald</option>
                                         </select>
                                     </div>
                                 </div> <!-- /.col-md-6 -->
@@ -108,7 +107,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="product-item-4">
                         <div class="product-thumb">
-                            <img style="border-radius: 7px;" src="images/produkty_zlate/outfit with gold.jpg" alt="Product Title">
+                            <img style="border-radius: 7px;" src="assets/images/produkty_zlate/outfit with gold.jpg" alt="Product Title">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content overlay">
                             <h5><a href="#">Golden Rings</a></h5>
@@ -121,7 +120,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="product-item-4">
                         <div class="product-thumb">
-                            <img style="border-radius: 7px;" src="images/produkty_zlate/bracelets.jpg" alt="">
+                            <img style="border-radius: 7px;" src="assets/images/produkty_zlate/bracelets.jpg" alt="">
                         </div> <!-- /.product-thumb -->
                         <div class="product-content overlay">
                             <h5><a href="#">Golden Bracelets</a></h5>
@@ -133,7 +132,7 @@
                 </div> <!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="ads-placemenet">
-                        <img style="border-radius: 7px;" src="images/produkty_zlate/pearls.jpg" alt="">
+                        <img style="border-radius: 7px;" src="assets/images/produkty_zlate/pearls.jpg" alt="">
                     </div> <!-- /.ads-placement -->
                 </div> <!-- /.col-md-4 -->
             </div> <!-- /.row -->
@@ -151,7 +150,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
                         <div class="product-thumb"><hr>
-                            <img src="images/produkty_zlate/emerald.png" alt="">
+                            <img src="assets/images/produkty_zlate/emerald.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" style="border-radius: 7px;">
                             <h5><a href="#">Flawless Emerald Ring</a></h5>
@@ -162,7 +161,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
                         <div class="product-thumb"><hr>
-                            <img src="images/produkty_zlate/ruby.png" alt="">
+                            <img src="assets/images/produkty_zlate/ruby.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" style="border-radius: 7px;">
                             <h5><a href="#">lustrous ruby ring</a></h5>
@@ -173,7 +172,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
                         <div class="product-thumb"><hr>
-                            <img src="images/produkty_zlate/sapphire2.png" alt="">
+                            <img src="assets/images/produkty_zlate/sapphire2.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" style="border-radius: 7px;">
                             <h5><a href="#">Timeless sapphire ring</a></h5>
@@ -184,7 +183,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item">
                         <div class="product-thumb"><hr>
-                            <img src="images/produkty_zlate/citrine.png" alt="">
+                            <img src="assets/images/produkty_zlate/citrine.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" style="border-radius: 7px;">
                             <h5><a href="#">elegant citrine ring</a></h5>
@@ -207,7 +206,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item-vote">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/new_product1.jpg" alt="">
+                            <img src="assets/images/produkty_zlate/new_product1.jpg" alt="">
                         </div> <!-- /.product-thum -->
                         <div class="product-content">
                             <h5><a href="#">Aurora</a></h5>
@@ -232,7 +231,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item-vote">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/new_product2 (2).jpg" alt="">
+                            <img src="assets/images/produkty_zlate/new_product2 (2).jpg" alt="">
                         </div> <!-- /.product-thum -->
                         <div class="product-content">
                             <h5><a href="#">Python</a></h5>
@@ -257,7 +256,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item-vote">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/new_product3.jpg" alt="">
+                            <img src="assets/images/produkty_zlate/new_product3.jpg" alt="">
                         </div> <!-- /.product-thum -->
                         <div class="product-content">
                             <h5><a href="#">Lunar Glow</a></h5>
@@ -282,7 +281,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="product-item-vote">
                         <div class="product-thumb">
-                            <img src="images/produkty_zlate/new_product4.jpg" alt="">
+                            <img src="assets/images/produkty_zlate/new_product4.jpg" alt="">
                         </div> <!-- /.product-thum -->
                         <div class="product-content">
                             <h5><a href="#">Helios</a></h5>
@@ -308,6 +307,6 @@
         </div> <!-- /.container -->
     </div> <!-- /.content-section -->
 
-   <?php
+<?php
    include('partials/footer.php')
-   ?>
+?>

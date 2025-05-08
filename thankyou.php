@@ -1,21 +1,16 @@
 <?php
-        include('partials/header.php');
-    ?>
+    include('partials/header.php');
+?>
 
     <main>
+      <br>
         <div class="thankyou">
         <?php
-              if ($_SERVER["REQUEST_METHOD"] == "POST"){
-                $contact_name = $_POST['name'];
-                if (empty($contact_name)) {
-                  echo"Empty contact name";
-                }else {
-                  echo "<h2>$contact_name Thank You!</h2>";
-                }
-              }
-            ?>
+            echo "<h2>Thank You!</h2>";
+        ?>
         </div>
+        <br>
     </main>
 <?php
-        include('partials/footer.php');
-    ?>
+    include('partials/footer.php');
+?>
