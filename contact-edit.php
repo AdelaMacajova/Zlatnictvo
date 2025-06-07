@@ -3,6 +3,12 @@ include('partials/header.php');
 $db = new Database();
 $contact = new Contact($db);
 
+$role = $_SESSION['role'];
+if ($role !== 0) {
+  header('Location: login.php');
+  exit;
+}
+
 if(isset($_GET['id'])){
     $id = $_GET['id'];
     $contactData = $contact->show($id);
@@ -27,7 +33,7 @@ if(isset($_GET['id'])){
         <input type="email" id="email" name="email" value="<?php echo($contactData['email']);?>"required><br>
         <input type="text" id="subject" name="subject" value="<?php echo($contactData['subject']);?>"required><br>
         <textarea id="message" name="message"><?php echo($contactData['message']);?></textarea><br>
-        <input type="submit" value="Send">
+        <input type="submit" value="Submit">
     </form>
 </section>
 <br>

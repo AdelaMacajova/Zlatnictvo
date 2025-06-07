@@ -2,6 +2,13 @@
     session_start();
     include("_inc/autoload.php");
     $date = new Date();
+
+    $cart_num = 0;
+if (isset($_SESSION['cart'])) {
+    foreach ($_SESSION['cart'] as $quantity) {
+        $cart_num += $quantity;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -32,6 +39,7 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="social-icons">
                             <ul>
+                                <li><a href="cart.php" class="cart-num"><?php echo '🛒'.$cart_num; ?></a></li>
                                 <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
                                 <li><a href="https://x.com/" class="fa fa-twitter"></a></li>
                                 <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
@@ -63,6 +71,7 @@
                                 echo '<li><a href="' . $umi['url'] . '">' . $umi['label'] . '</a></li>';
                                 }
                             ?>
+
                             </ul>
                         </div> <!-- /.main-menu -->
                     </div> <!-- /.col-md-8 -->

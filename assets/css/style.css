@@ -1076,3 +1076,68 @@ ul.follow-us li a i {
   width:3vw;
   margin:2px;
 }
+
+.date{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.br-7{
+  border-radius: 7px;
+}
+.underline{
+  text-decoration:underline!important;
+  font-weight: bold !important;
+}
+.center{
+  text-align: center;
+}
+
+.show{
+color:black !important;
+}
+.cart-btn1, .cart-btn2{
+  background-color: rgb(128, 211, 128);
+  padding:4px;
+  border:2px solid green;
+  border-radius: 4px;
+}.cart-btn2{
+  background-color: rgb(211, 210, 128);
+  border:2px solid rgb(124, 128, 0);
+}.cart-btn1:hover, .cart-btn2:hover{
+  color:black; 
+}
+.total{
+  display:inline;
+  background-color: rgb(239, 211, 163);
+  border:3px solid rgb(190, 152, 100);
+  border-radius: 4px;
+  padding:4px;
+  font-weight: bold;
+  color:black;
+}
+
+.cart-num{
+  background-color:rgb(121, 196, 41);
+  border-radius: 360px;
+  font-weight: bold;
+}
+
+.admin-nav{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.admin-nav-options{
+  padding:0px 5px 0px 5px;
+  border-left:2px solid gray;
+  border-right:2px solid gray;
+  color:black;
+  font-weight: bold;
+}
+hr{
+  height:0px;
+  border-bottom:2px solid black;
+}

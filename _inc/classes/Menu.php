@@ -1,12 +1,13 @@
 <?php
     class Menu{
-        
+        private $lowerMenuItems;
+        private $upperMenuItems;
+
     public function getLowerMenuItems(){
         return [
             ["label"=> "Home","url"=> "index.php"],
             ["label"=> "Shop","url"=> "shop.php"],
-            ["label"=> "Bundles","url"=> "product-detail.php"],
-            ["label"=> "Contact","url"=> "contact.php"],
+            ["label"=> "Contact","url"=> "contact.php"]
         ];
     }
     public function getUpperMenuItems(){
@@ -14,7 +15,7 @@
             ["label"=> "Home","url"=> "index.php"],
             ["label"=> "FAQ","url"=> "faq.php"],
             ["label"=> "About Us","url"=> "#about-us"],
-            ["label"=> "Cart","url"=> "cart.php"],
+            ["label"=> "Cart","url"=> "cart.php"]
         ];
     } 
 }

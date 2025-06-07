@@ -15,10 +15,11 @@ class Auth {
         
         if ($user) {
             if (password_verify($password, $user['password'])) {
-                $_SESSION['id'] = $user['id'];
+                $_SESSION['user_id'] = $user['user_id'];
                 $_SESSION['email'] = $user['email'];
                 $_SESSION['role'] = $user['role'];
                 $_SESSION['name'] = $user['name'];
+                $_SESSION['surname'] = $user['surname'];
                 return true;
             } 
         }
@@ -42,7 +43,7 @@ class Auth {
     }
     
     public function isLoggedIn(){
-        return isset($_SESSION['id']);
+        return isset($_SESSION['user_id']);
     }
 
     public function getUserRole(){
@@ -53,6 +54,13 @@ class Auth {
         if (!$this->isLoggedIn()) {
             header("Location: login.php");
             exit;
+        }
+    }
+    public function getUserId() {
+        if (isset($_SESSION['user_id'])) {
+            return $_SESSION['user_id'];
+        } else {
+            return false;
         }
     }
 }

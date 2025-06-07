@@ -4,25 +4,33 @@ include('partials/header.php');
 $db = new Database();
 $user = new User($db);
 
+$role = $_SESSION['role'];
+if ($role !== 0) {
+  header('Location: login.php');
+  exit;
+}
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['name'];
+    $surname = $_POST['surname'];
     $email = $_POST['email'];
     $role = $_POST['role'];
     $password = $_POST['password'];
 
-    if ($user->create($name, $email, $role, $password)) {
+    if ($user->create($name, $surname, $email, $role, $password)) {
         header("Location: admin.php");
         exit;
     } else {
-        echo "<p style='color: red;'>This email is already in use.</p>";
+        echo "<p>This email is already in use.</p>";
     }
 }
 ?>
 
-<section>
+<section class="ml3">
     <h1>Add User</h1>
     <form class="contact-admin" id="user" action="" method="POST">
         <input type="text" placeholder="Name" id="name" name="name" required><br>
+        <input type="text" placeholder="Surname" id="surname" name="surname" required><br>
         <input type="email" placeholder="Email" id="email" name="email" required><br>
         
         <select id="role" name="role" required>
@@ -34,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="submit" value="Add">
     </form>
 </section>
-
+<br>
 <?php
 include('partials/footer.php');
 ?>

@@ -2,7 +2,7 @@
 class Database{
 
     private $host="localhost";
-    private $db="luxgold";
+    private $db="mydb";
     private $username="root";
     private $password="";
     private $charset = "utf8";
