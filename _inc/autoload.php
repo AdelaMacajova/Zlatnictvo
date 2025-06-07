@@ -6,4 +6,5 @@
     require('_inc/classes/Database.php');
     include('_inc/classes/User.php');
     require('_inc/classes/Auth.php');
+    include('_inc/classes/Product.php');
 ?>

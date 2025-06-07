@@ -4,7 +4,8 @@
     public function getLowerMenuItems(){
         return [
             ["label"=> "Home","url"=> "index.php"],
-            ["label"=> "Details","url"=> "product-detail.php"],
+            ["label"=> "Shop","url"=> "shop.php"],
+            ["label"=> "Bundles","url"=> "product-detail.php"],
             ["label"=> "Contact","url"=> "contact.php"],
         ];
     }
@@ -13,6 +14,7 @@
             ["label"=> "Home","url"=> "index.php"],
             ["label"=> "FAQ","url"=> "faq.php"],
             ["label"=> "About Us","url"=> "#about-us"],
+            ["label"=> "Cart","url"=> "cart.php"],
         ];
     } 
 }

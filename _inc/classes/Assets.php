@@ -7,7 +7,8 @@ class Assets{
              '<script src="assets/js/bootstrap.js"></script>'.
              '<script src="assets/js/jquery.easing-1.3.js"></script>'.
              '<script src="assets/js/main.js"></script>'.
-             '<script src="assets/js/plugins.js"></script>');
+             '<script src="assets/js/plugins.js"></script>'.
+             '<script src="assets/js/filter.js"></script>');
     }
     public function add_stylesheets(){
         echo('<link rel="stylesheet" href="assets/css/accordion.css">'.

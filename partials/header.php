@@ -1,5 +1,7 @@
 <?php
-    require_once("_inc/autoload.php");
+    session_start();
+    include("_inc/autoload.php");
+    $date = new Date();
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -13,7 +15,8 @@
         $assets = new Assets();
         $assets->add_stylesheets();
     ?>
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+
 </head>
 <body>
     <header class="site-header">
@@ -59,7 +62,7 @@
                                 foreach ($upperMenuItems as $umi) {
                                 echo '<li><a href="' . $umi['url'] . '">' . $umi['label'] . '</a></li>';
                                 }
-                                ?>
+                            ?>
                             </ul>
                         </div> <!-- /.main-menu -->
                     </div> <!-- /.col-md-8 -->
@@ -78,13 +81,9 @@
                                 foreach ($lowerMenuItems as $lmi) {
                                 echo '<li><a href="' . $lmi['url'] . '">' . $lmi['label'] . '</a></li>';
                                 }
-                            ?>
+                                ?>
                             </ul>
                         </div> <!-- /.list-menu -->
-                    </div> <!-- /.col-md-6 -->
-                    <div class="col-md-6 col-sm-5">
-                        <div class="notification">
-                        </div>
                     </div> <!-- /.col-md-6 -->
                 </div> <!-- /.row -->
             </div> <!-- /.container -->

@@ -1,12 +1,19 @@
 <?php
-session_start();
 include('partials/header.php');
+
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 0) {
+    header('Location: login.php');
+    exit;
+}
 
 $db = new Database();
 $auth = new Auth($db);
 $auth->requireLogin();
 
 $userRole = $auth->getUserRole();
+
+$product = new Product($db);
+$products = $product->index();
 
 $contact = new Contact($db);
 $contacts = $contact->index();
@@ -17,12 +24,53 @@ if (isset($_GET['delete'])) {
     exit;
 }
 
+if (isset($_GET['delete_product'])) {
+    $product->destroy($_GET['delete_product']);
+    header("Location: admin.php");
+    exit;
+}
+
 if ($userRole == 0) {
     $user = new User($db);
     $users = $user->index();
 }
+if (isset($_GET['delete_user'])) {
+    $user->destroy($_GET['delete_user']);
+    header("Location: admin.php");
+    exit;
+}
+?>
+<br>
+<section class="ml3">
+    <a href="product-create.php" class="new-contact ml3">+ New Product</a>
+    <table>
+        <tr>
+            <th class="admin-table">Name</th>
+            <th class="admin-table">URL</th>
+            <th class="admin-table">Category</th>
+            <th class="admin-table">Price</th>            
+            <th class="admin-table">Delete</th>
+            <th class="admin-table">Edit</th>
+            <th class="admin-table">Show</th>
+        </tr>
+        <?php foreach($products as $pro){
+            echo '<tr>';
+            echo '<td class="admin-table">'.$pro['name'].'</td>';
+            echo '<td class="admin-table">'.$pro['url'].'</td>';
+            echo '<td class="admin-table">'.$pro['category'].'</td>';
+            echo '<td class="admin-table">'.$pro['price'].'€ </td>';
+            echo '<td class="admin-table"><a href="?delete_product='.$pro['id'].'" 
+            onclick="return confirm(\'Are you sure you want to delete this product?\')">Delete</a></td>';
+            echo '<td class="admin-table"><a href="product-edit.php?id='.$pro['id'].'" ">Edit</a></td>';
+            echo '<td class="admin-table"><a href="product-show.php?id='.$pro['id'].'" ">Show</a></td>';
+            echo '</tr>';
+        } 
 ?>
 
+    </table>
+    </table>
+    <br>
+</section>
 <br>
 <section class="ml3">
     <a href="contact-create.php" class="new-contact ml3">+ New Contact</a>
@@ -84,7 +132,7 @@ if ($userRole == 0) {
         </table>
     <?php endif; ?>
 </section>
-
+<br>
 <?php
 include('partials/footer.php');
 ?>
