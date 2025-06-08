@@ -3,9 +3,9 @@
     include('_inc/classes/Menu.php');
     include('_inc/classes/Assets.php');
     include('_inc/classes/Contact.php');
-    include('_inc/classes/Database.php');
+    require('_inc/classes/Database.php');
     include('_inc/classes/User.php');
-    include('_inc/classes/Auth.php');
+    require('_inc/classes/Auth.php');
     include('_inc/classes/Product.php');
     include('_inc/classes/Faq.php');
     include('_inc/classes/Order.php');

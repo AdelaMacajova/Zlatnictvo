@@ -1,6 +1,6 @@
 <?php
 class Assets{
-
+    
     public function add_scripts(){
         echo('<script src="assets/js/vendor/jquery-1.10.1.min.js"></script>'.
              '<script src="assets/js/accordion.js"></script>'.
@@ -10,6 +10,7 @@ class Assets{
              '<script src="assets/js/plugins.js"></script>'.
              '<script src="assets/js/filter.js"></script>');
     }
+
     public function add_stylesheets(){
         echo('<link rel="stylesheet" href="assets/css/accordion.css">'.
              '<link rel="stylesheet" href="assets/css/animate.css">'.
@@ -19,7 +20,6 @@ class Assets{
              '<link rel="stylesheet" href="assets/css/normalize.min.css">'.
              '<link rel="stylesheet" href="assets/css/misc.css">'.
              '<link rel="stylesheet" href="assets/css/style.css">');
-
     }
 }
 ?>

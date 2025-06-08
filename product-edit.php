@@ -48,14 +48,16 @@ if (isset($_GET['product_id'])) {
             <option value="diamond">Diamond</option>
             <option value="pearl">Pearl</option>
             <option value="other">Other</option>
-        </select><br>
-                <select id="type" name="type" required>
+        </select>
+        <br>
+        <select id="type" name="type" required>
             <option value="" disabled selected>Select type</option>
             <option value="ring">Ring</option>
             <option value="bracelet">Bracelet</option>
             <option value="earrings">Earrings</option>
             <option value="necklace">Necklace</option>
-        </select><br>
+        </select>
+        <br>
         <input type="text" placeholder="Price" name="price" value="<?php echo($productData['price']);?>">
         <button type="submit">Submit</button>
     </form>

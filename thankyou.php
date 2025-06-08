@@ -1,7 +1,6 @@
 <?php
-    include('partials/header.php');
+include('partials/header.php');
 ?>
-
     <main>
       <br>
         <div class="thankyou">
@@ -11,6 +10,7 @@
         </div>
         <br>
     </main>
+
 <?php
-    include('partials/footer.php');
+include('partials/footer.php');
 ?>

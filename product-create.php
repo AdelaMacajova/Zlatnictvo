@@ -34,20 +34,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <form class="contact-admin ml3" method="POST">
     <input type="text" placeholder="Name" name="name">
     <input type="text" placeholder="assets/images/" name="url">
-            <select id="material" name="material" required>
-            <option value="" disabled selected>Select material</option>
-            <option value="gemstone">Gemstone</option>
-            <option value="diamond">Diamond</option>
-            <option value="pearl">Pearl</option>
-            <option value="other">Other</option>
-        </select><br>
-                <select id="type" name="type" required>
-            <option value="" disabled selected>Select type</option>
-            <option value="ring">Ring</option>
-            <option value="bracelet">Bracelet</option>
-            <option value="earrings">Earrings</option>
-            <option value="necklace">Necklace</option>
-        </select><br>
+    <select id="material" name="material" required>
+        <option value="" disabled selected>Select material</option>
+        <option value="gemstone">Gemstone</option>
+        <option value="diamond">Diamond</option>
+        <option value="pearl">Pearl</option>
+        <option value="other">Other</option>
+    </select>
+    <br>
+    <select id="type" name="type" required>
+        <option value="" disabled selected>Select type</option>
+        <option value="ring">Ring</option>
+        <option value="bracelet">Bracelet</option>
+        <option value="earrings">Earrings</option>
+        <option value="necklace">Necklace</option>
+    </select>
+    <br>
     <input type="text" placeholder="Price" name="price">
     <button type="submit">Submit</button>
 </form>
