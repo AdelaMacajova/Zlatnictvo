@@ -998,7 +998,7 @@ ul.follow-us li a i {
 }
 
 .shop-item {
-  width: 15%;
+  width: 18%;
   text-align: center;
   padding: 8px;
   /*border: 1px solid gray;*/
@@ -1006,14 +1006,17 @@ ul.follow-us li a i {
   display:flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .content-row img{
   width:13vw;
+  height: 13vw;
   background-color:rgb(237, 207, 152);
   border:3px solid rgb(225, 190, 125);
   border-radius: 8px;
   margin:4px;
+  object-fit: scale-down;
 }
 
 .shop-item label{

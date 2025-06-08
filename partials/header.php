@@ -1,9 +1,9 @@
 <?php
-    session_start();
-    include("_inc/autoload.php");
-    $date = new Date();
+session_start();
+include("_inc/autoload.php");
+$date = new Date();
 
-    $cart_num = 0;
+$cart_num = 0;
 if (isset($_SESSION['cart'])) {
     foreach ($_SESSION['cart'] as $quantity) {
         $cart_num += $quantity;

@@ -10,9 +10,9 @@ if ($role !== 0) {
   exit;
 }
 
-if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-    $productData = $product->show($id);
+if (isset($_GET['product_id'])) {
+    $product_id = $_GET['product_id'];
+    $productData = $product->show($product_id);
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $name = $_POST['name'];

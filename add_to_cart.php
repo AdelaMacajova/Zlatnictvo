@@ -5,9 +5,11 @@ $db = new Database();
 $conn = $db->getConnection();
 $auth = new Auth($db);
 $user_id = $auth->getUserId();
+$auth->requireLogin();
 
 
 $product_id = $_POST['product_id'];
+
 if (!isset($_SESSION['cart'])){
     $_SESSION['cart'] = [];
 }
@@ -17,6 +19,7 @@ if (isset($_SESSION['cart'][$product_id])){
 } else{
     $_SESSION['cart'][$product_id] =1;
 }
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product_id'])){
     $product_id = (int)$_POST['product_id'];

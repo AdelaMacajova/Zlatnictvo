@@ -1,6 +1,6 @@
 <?php
-
 include("partials/header.php");
+
 
 $db = new Database();
 $conn = $db->getConnection();
@@ -8,11 +8,13 @@ $product = new Product($db);
 $auth = new Auth($db);
 $auth->requireLogin();
 $user_id = $auth->getUserId();
+$auth->requireLogin();
 
 $stmt = $conn->prepare("SELECT cart_items.product_id, cart_items.quantity FROM cart_items JOIN cart ON cart_items.cart_id = cart.cart_id WHERE cart.user_id = :user_id");
 $stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
 $stmt->execute();
 $cart_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 
 $_SESSION['cart'] = [];
 foreach ($cart_items as $item) {

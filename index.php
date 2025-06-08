@@ -118,7 +118,7 @@
                             <img src="assets/images/produkty_zlate/emerald.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" class="br-7">
-                            <h5><a href="#">Flawless Emerald Ring</a></h5>
+                            <h5><a href="shop.php">Flawless Emerald Ring</a></h5>
                             <span class="price">479€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
@@ -129,7 +129,7 @@
                             <img src="assets/images/produkty_zlate/ruby.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" class="br-7">
-                            <h5><a href="#">lustrous ruby ring</a></h5>
+                            <h5><a href="shop.php">lustrous ruby ring</a></h5>
                             <span class="price">349€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
@@ -140,7 +140,7 @@
                             <img src="assets/images/produkty_zlate/sapphire2.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" class="br-7">
-                            <h5><a href="#">Timeless sapphire ring</a></h5>
+                            <h5><a href="shop.php">Timeless sapphire ring</a></h5>
                             <span class="price">649€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
@@ -151,7 +151,7 @@
                             <img src="assets/images/produkty_zlate/citrine.png" alt="">
                         </div> <!-- /.product-thum --><hr>
                         <div class="product-content" class="br-7">
-                            <h5><a href="#">elegant citrine ring</a></h5>
+                            <h5><a href="shop.php">elegant citrine ring</a></h5>
                             <span class="price">459€</span>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->
