@@ -4,7 +4,11 @@ include('partials/header.php');
 $db = new Database();
 $user = new User($db);
 
-
+$role = $_SESSION['role'];
+if ($role !== 0) {
+  header('Location: login.php');
+  exit;
+}
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['name'];

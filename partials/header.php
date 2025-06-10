@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("_inc/autoload.php");
+require_once("_inc/autoload.php");
 $date = new Date();
 
 $cart_num = 0;

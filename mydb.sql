@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hostiteľ: 127.0.0.1
--- Čas generovania: So 07.Jún 2025, 22:06
+-- Čas generovania: Út 10.Jún 2025, 23:35
 -- Verzia serveru: 10.4.32-MariaDB
 -- Verzia PHP: 8.2.12
 
@@ -146,8 +146,31 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `name`, `url`, `material`, `type`, `price`) VALUES
-(2, 'Lustrous Diamond Ring', 'assets/images/diamond_rings/dia4.png', 'diamond', 'ring', 1110),
-(3, 'Glossy Emerald Ring', 'assets/images/gemstoned_rings/emerald.png', 'gemstone', 'ring', 450);
+(4, 'Glossy Diamond Ring', 'assets/images/diamond_rings/dia1.png', 'diamond', 'ring', 590),
+(5, 'Lustrous Diamond Ring', 'assets/images/diamond_rings/dia2.png', 'diamond', 'ring', 555),
+(6, 'Shiny Diamond Ring', 'assets/images/diamond_rings/dia3.png', 'diamond', 'ring', 580),
+(7, 'Celestial Diamond Ring', 'assets/images/diamond_rings/dia4.png', 'diamond', 'ring', 540),
+(8, 'Fine Diamond Ring', 'assets/images/diamond_rings/dia5.png', 'diamond', 'ring', 556),
+(9, 'Emerald Ring', 'assets/images/gemstoned_rings/emerald.png', 'gemstone', 'ring', 580),
+(10, 'Ruby Ring', 'assets/images/gemstoned_rings/ruby.png', 'gemstone', 'ring', 510),
+(11, 'Aquamarine Ring', 'assets/images/gemstoned_rings/aquamarine.png', 'gemstone', 'ring', 480),
+(12, 'Sapphire Ring', 'assets/images/gemstoned_rings/sapphire.png', 'gemstone', 'ring', 580),
+(13, 'Citrine Ring', 'assets/images/gemstoned_rings/citrine.png', 'gemstone', 'ring', 570),
+(14, 'Vanilla Earrings', 'assets/images/earrings/earrings1.png', 'other', 'earrings', 430),
+(15, 'Treasure of the Sea', 'assets/images/earrings/earrings2.webp', 'other', 'earrings', 210),
+(16, 'Magical Earrings', 'assets/images/earrings/earrings3.png', 'other', 'earrings', 230),
+(17, 'Blooming Emerald Earrings', 'assets/images/earrings/earrings4.png', 'gemstone', 'earrings', 500),
+(18, 'Glossy Emerald Earrings', 'assets/images/earrings/earrings5.webp', 'gemstone', 'earrings', 580),
+(19, 'Bracelet of Infinity', 'assets/images/bracelets/bracelet1.png', 'other', 'bracelet', 500),
+(20, 'Shiny Gold Bracelet', 'assets/images/bracelets/bracelet2.png', 'other', 'bracelet', 210),
+(21, 'Ireland Bracelet', 'assets/images/bracelets/bracelet3.webp', 'diamond', 'bracelet', 450),
+(22, 'Lustrous Bracelet', 'assets/images/bracelets/bracelet4.png', 'other', 'bracelet', 460),
+(23, 'Sparkling Bracelet', 'assets/images/bracelets/bracelet5.png', 'diamond', 'bracelet', 750),
+(24, 'Giant Necklace', 'assets/images/necklaces/necklace1.png', 'other', 'necklace', 895),
+(25, 'Elegant Diamond Necklace', 'assets/images/necklaces/necklace2.webp', 'diamond', 'necklace', 450),
+(26, 'Blooming Emerald Necklace', 'assets/images/necklaces/necklace3.webp', 'gemstone', 'necklace', 780),
+(27, 'Blooming Sapphire Necklace', 'assets/images/necklaces/necklace4.webp', 'gemstone', 'necklace', 795),
+(28, 'Greek Necklace', 'assets/images/necklaces/necklace5.png', 'gemstone', 'necklace', 749);
 
 -- --------------------------------------------------------
 
@@ -170,7 +193,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `name`, `surname`, `email`, `password`, `role`, `created_at`) VALUES
-(6, 'Adela', 'Máčajová', 'am@gmail.com', '$2y$10$fB1cxalLasNd/yYr3.ZAdek3Fskrh1sZj0SzrEhJob0qMn5XZIFOW', 0, '2025-06-07 20:05:24');
+(7, 'Adela', 'Macajova', 'am@gmail.com', '$2y$10$jPbSsUO3eW4Sus94ZSzzkutpA6UTPHXXr2tI6lsntLoVXwLzAkfvy', 0, '2025-06-10 21:16:50');
 
 --
 -- Kľúče pre exportované tabuľky
@@ -244,13 +267,13 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT pre tabuľku `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT pre tabuľku `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
